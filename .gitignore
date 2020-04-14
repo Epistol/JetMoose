@@ -1,0 +1,19 @@
+# ignore editors conf file
+.vscode/
+*.sublime*
+
+# ignore node & bower dependency directories
+bower_components
+node_modules
+
+# ignore generic mac files
+.DS_*
+
+# ignore logs
+*.log
+logs
+
+# ignore all kind of non required files at root
+psd
+thumb
+sketch
