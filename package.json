@@ -19,8 +19,8 @@
     "webpack-cli": "^4.0.0-beta.8",
     "workbox-webpack-plugin": "^5.1.2"
   },
-  "version": "1.0.0",
-  "description": "JetMoose is a boilerplate for wordpress theme",
+  "version": "0.0.1",
+  "description": "Modern boilerplate for wordpress theme",
   "keywords": [
     "jetmoose",
     "wordpress",
@@ -31,6 +31,7 @@
   ],
   "author": "Epistol",
   "private": false,
+  "license": "MIT",
   "scripts": {
     "build": "webpack",
     "commit": "npx git-cz"
@@ -44,5 +45,9 @@
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Epistol/JetMoose/issues"
+  },
+  "homepage": "https://github.com/Epistol/JetMoose#readme"
 }
