@@ -1,5 +1,6 @@
 # ignore editors conf file
 .vscode/
+.nuxt/
 *.sublime*
 
 # ignore node & bower dependency directories
@@ -17,3 +18,5 @@ logs
 psd
 thumb
 sketch
+
+static/

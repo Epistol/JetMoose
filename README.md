@@ -1,11 +1,15 @@
 <p align="center"><img width="150" src="logo.svg" alt="JetMoose logo"></p>
 <h1 align="center">🚀 JetMoose 🦌</h1>
 
-<!-- <p align="center">
-  <a href="https://codecov.io/github/epistol/JetMoose?branch=dev"><img src="https://img.shields.io/codecov/c/github/epistol/JetMoose/dev.svg?sanitize=true" alt="Coverage Status"></a>
+ <p align="center">
+ <img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/Epistol/JetMoose/master">
+<a href="https://github.com/Epistol/JetMoose/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Epistol/JetMoose"></a>
+<a href="https://github.com/Epistol/JetMoose/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Epistol/JetMoose"></a>
+<a href="https://github.com/Epistol/JetMoose/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Epistol/JetMoose"></a>
+<a href="https://github.com/Epistol/JetMoose/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Epistol/JetMoose"></a>
+<img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/Epistol/JetMoose">
   <br>
-</p> -->
-
+</p>
 ## Introduction
 
 JetMoose is a modern Wordpress theme boilerplate designed to work with Vue and Tailwind out of the box.
@@ -42,4 +46,26 @@ or
 yarn build
 ```
 
-to bundle your application -->
+to bundle your application --># nuxt
+
+> Nuxt front-end
+
+## Build Setup
+
+```bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
